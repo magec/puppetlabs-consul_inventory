@@ -12,7 +12,7 @@ This module includes a Bolt plugin to generate Bolt targets from a consul server
 
 ## Requirements
 
-This module have two requirements [`diplomat`](https://rubygems.org/gems/diplomat) and [`net-ssh-gateay`](https://rubygems.org/gems/net-ssh-gateway). You need to install them
+This module have two requirements [`diplomat`](https://rubygems.org/gems/diplomat) and [`net-ssh-gateway`](https://rubygems.org/gems/net-ssh-gateway). You need to install them
 manually using bolt's gem command.
 
 ```
