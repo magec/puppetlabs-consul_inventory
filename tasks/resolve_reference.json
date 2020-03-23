@@ -1,0 +1,25 @@
+{
+  "description": "Generate targets from Consul services",
+  "files": ["ruby_task_helper/files/task_helper.rb",
+    "ruby_plugin_helper/lib/plugin_helper.rb"
+  ],
+  "input_method": "stdin",
+  "parameters": {
+    "host": {
+      "type": "String[1]"
+    },
+    "port": {
+      "type": "Integer"
+    },
+    "bastion_host": {
+      "type": "Optional[String[1]]"
+    },
+    "bastion_user": {
+      "type": "Optional[String[1]]"
+    },
+    "bastion_ssh_options": {
+      "type": "Optional[Hash]"
+    }
+  },
+  "private": true
+}
