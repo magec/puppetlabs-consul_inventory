@@ -14,6 +14,9 @@
     "bastion_host": {
       "type": "Optional[String[1]]"
     },
+    "use_hostname": {
+      "type": "Optional[Boolean]"
+    },
     "bastion_user": {
       "type": "Optional[String[1]]"
     },

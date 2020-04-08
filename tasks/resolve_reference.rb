@@ -30,7 +30,7 @@ class ConsulInventory < TaskHelper
   def resolve_reference(opts)
     config_client(opts)
     nodes = Diplomat::Node.get_all.map do |node|
-      node['Address']
+      opts[:use_hostname] ? node['Node'] : node['Address']
     end
     gateway.shutdown!
     nodes
